@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.title-form {
+    text-align: center;
+    color: #0b4cff;
+    text-shadow: 4px 4px #fafb7f;
+}
+
+fieldset {
+    background-color: #01FFFF;
+    margin-bottom: 1%;
+    border-radius: 5px;
+    border: none;
+}
+
+legend {
+    background-color: #E30907;
+    color: white;
+    padding: 5px;
+}
+
+/*INPUTS & LABELS*/
+
+input[type="text"] {
+    background-color: #FEFF00;
+    border-radius: 5px;
+    margin-left: .5%;
+    width: 200px;
+}
+
+label {
+    font-weight: 400;
+}
+
+label[for="portabilidad"] {
+    margin-left: 20px;
+}
+
+/*BUTTON*/
+
+#valoracion, #mostrar-cuenta, #dia {
+    background-color:#FFC0CB;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px;
+}
